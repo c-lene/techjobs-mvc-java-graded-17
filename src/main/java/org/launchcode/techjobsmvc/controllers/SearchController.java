@@ -49,8 +49,7 @@ public class SearchController {
         model.addAttribute("jobs",jobs);
         model.addAttribute("columns",columnChoices);
 
-        // Redirect the user to "/search" (the event listing page)
-        return "redirect:/search";
+        return "search";
     }
 
 }
